@@ -12,6 +12,10 @@ public class Persona extends PersonaApp.PersonaPOA {
         boolean resultado = false;
         try {
             
+            
+            
+            
+            
             String query = "insert into persona (id ,nombre, apelllido, telefono, direccion, identificacion)" + "values ("+id+" "+nombre+","+apellido+","+telefono+","+direccion+","+identificacion+")";
             
             conex.conexion();
